@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./ehsan-eslami-hK8MoseALCU-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img{
+    width:600px;
+}
+
+#hi{
+    margin-top: 20px;
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer h3{
+    padding: 4rem 3rem;
+    cursor: pointer;
+}
+
+footer h3:hover{
+    color: rgb(0, 136, 255);
+    text-decoration: underline;
+}
+
+footer h3:hover:last-of-type{
+    color: red;
+}
+
+footer h3:hover:first-of-type{
+    color: green;
+}
+
